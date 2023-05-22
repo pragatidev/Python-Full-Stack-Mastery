@@ -83,7 +83,8 @@ Next, navigate back to the `src` directory and open `App.vue`. Replace the conte
 ## Step 5: Run the app
 
 Return to the terminal, make sure you're in the root directory of your project and type the following command to start your Vue.js application:
-
+    
+    cd my-first-vue-project
     npm run serve
 
 Open your web browser and navigate to `http://localhost:8080/`. If you see an input box and a list (which will initially be empty), you've successfully set up your Vue.js project!
