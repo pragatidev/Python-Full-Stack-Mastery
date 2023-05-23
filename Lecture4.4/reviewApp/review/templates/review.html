@@ -1,0 +1,9 @@
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit review</button>
+</form>
+
+{% for review in reviews %}
+    <p>{{ review.review }} - Rating: {{ review.rating }}</p>
+{% endfor %}
