@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Auth App</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'main:home' %}">Home</a> |
+        {% if user.is_authenticated %}
+            <a href="{% url 'main:profile' %}">Profile</a> |
+            <a href="{% url 'main:logout' %}">Logout</a>
+        {% else %}
+            <a href="{% url 'main:login' %}">Login</a> |
+            <a href="{% url 'main:register' %}">Register</a>
+        {% endif %}
+    </nav>
+    {% block content %}{% endblock %}
+</body>
+</html>
