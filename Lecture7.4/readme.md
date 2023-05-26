@@ -277,7 +277,10 @@ export default {
 }
 </script>
 ````
-
+First, we need to install Vue Router. In your terminal, while inside the 'blogclient' directory, type:
+````
+npm install vue-router
+````
 To use these components, you'll have to configure your Vue Router: configure in 'src/router/index.js'
 ````
 import Vue from 'vue'
