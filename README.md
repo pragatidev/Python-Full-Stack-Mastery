@@ -46,7 +46,7 @@ To make the most of this course, it is recommended that you have a basic underst
 
 ## Instructor
 
-The course is taught by *Instructor Name*, a seasoned full-stack developer with years of industry experience. *Instructor Name* has a passion for teaching and is dedicated to helping students learn the skills needed to excel in the field of web development.
+The course is taught by *Pragati Kunwer*, a seasoned full-stack developer with years of industry experience. *Pragati Kunwer* has a passion for teaching and is dedicated to helping students learn the skills needed to excel in the field of web development.
 
 ## Get Started Now!
 
